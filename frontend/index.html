@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Suhail | Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Ambient animated background -->
+    <div class="ambient-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="glass-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">Suhail<span>.</span></a>
+            
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon-wrap" aria-hidden="true">
+                        <i class="fas fa-sun toggle-icon toggle-icon-sun"></i>
+                        <i class="fas fa-moon toggle-icon toggle-icon-moon"></i>
+                    </span>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding fade-in">
+            <div class="hero-content glass-card">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Mohammed Suhail</h1>
+                <h2 class="role">IT Student <span class="divider">|</span> Building Toward Data &amp; AI Engineering</h2>
+                <p class="hero-description">
+                    I build practical projects across data analytics, machine learning, and web development, focused on turning ideas into usable digital solutions through code, dashboards, and real execution.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="/resume" class="btn secondary-btn" id="resume-btn" download><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/mohammedsuhail0" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammed-suhail-b39883274" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding fade-in">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container glass-card">
+                <div class="about-text">
+                    <p>I am an IT student focused on building practical projects across data analytics, machine learning, and digital product development. My work usually starts with curiosity around how systems behave, then turns into structured experimentation through code, dashboards, and real project execution.</p>
+                    <p>Recently, I have been working on machine learning based analytics projects, Power BI dashboards, and web solutions that combine technical functionality with clean presentation. I enjoy turning raw ideas into usable outputs, whether that means training a model, designing a dashboard, or building a working website.</p>
+                    <p>My long term direction is toward becoming a Data &amp; AI Engineer, with strong interest in intelligent systems, applied machine learning, and tools that solve practical problems.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Learning<br>&amp; Building</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects<br>Built</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding fade-in">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category glass-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive UI</span>
+                        <span class="tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Backend & Data</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Power BI</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Tools & AI</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git & GitHub</span>
+                        <span class="tag">WordPress</span>
+                        <span class="tag">AI Assisted Development</span>
+                        <span class="tag">Dashboard Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding fade-in">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>House Rental Analytics</h3>
+                        <p class="project-desc">A data analytics project focused on rental market insights, including pricing trends, location-based comparisons, and dashboard-driven reporting.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohammedsuhail0/house-rental-analytics" class="icon-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>NRCHS Website</h3>
+                        <p class="project-desc">A working website deployment used for public access. A visually improved WordPress version also exists, but it is private and not deployed yet.</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Web Design</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://beamish-melba-c17a26.netlify.app" class="icon-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card coming-soon-card">
+                    <div class="project-img-placeholder coming-soon-hero">
+                        <span class="coming-soon-badge">Coming Soon</span>
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Business Insight Platform (Curtain-Raiser)</h3>
+                        <p class="project-desc">A teaser for an upcoming analytics product focused on how businesses perform across growth, operations, and decision metrics. Full build and live experience launching soon.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="icon-link disabled-link"><i class="fas fa-hourglass-half"></i> In Progress</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding fade-in">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Currently open for new opportunities. Let's build something awesome together!</p>
+            
+            <div class="contact-container glass-card">
+                <form class="contact-form" id="contactForm" action="/api/contact" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Hi Suhail, I'd like to talk about..." required></textarea>
+                    </div>
+                    <div class="form-group honeypot-field" aria-hidden="true">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+                    </div>
+                    <div class="form-group captcha-group">
+                        <div id="turnstile-container"></div>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mdsuhailtab.1@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Global | Remote</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <p>&copy; <span id="year">2026</span> Mohammed Suhail. Built with <i class="fas fa-heart"></i> &amp; Vanilla code.</p>
+    </footer>
+
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
