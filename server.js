@@ -112,7 +112,7 @@ const normalizeMessage = (value) => String(value || '')
 const contactSchema = z.object({
     name: z.string().min(2).max(80),
     email: z.string().email().max(254),
-    message: z.string().min(10).max(2000),
+    message: z.string().min(5).max(2000),
     company: z.string().max(120).optional().default(''),
     turnstileToken: z.string().max(2048).optional().default('')
 });
